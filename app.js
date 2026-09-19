@@ -5,7 +5,7 @@ const PORT = 3000;
 
 app.get('/status', (req, res) => {
     res.json({
-        status: 'Application is running'
+        status: 'Application is running successfully'
     });
 });
 
